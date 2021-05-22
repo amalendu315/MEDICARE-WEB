@@ -172,3 +172,70 @@ p {
     display: flex;
     justify-content: space-between;
 }
+
+.col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+@media(max-width:700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.aboutus {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.col1 {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.col1 img {
+    width: 50%;
+    justify-content: left;
+}
+
+.aboutus {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url("cover.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.aboutus p {
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}

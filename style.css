@@ -249,3 +249,69 @@ h3 {
     bottom: 100%;
     opacity: 1;
 }
+
+.departments {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.departments-col {
+    flex-basis: 30%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.departments-col img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    justify-content: space-between;
+    display: block;
+}
+
+.departments-col img:hover {
+    background: chartreuse;
+    opacity: 1;
+}
+
+.departments-col p {
+    padding: 0;
+}
+
+.departments-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.feedback {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.feedback-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: block;
+    justify-content: space-between;
+}
+
+.feedback-col p {
+    padding: 0;
+}
+
+.feedback-col h3 {
+    margin-top: 15px;
+    text-align: left;
+}

@@ -206,7 +206,7 @@ h3 {
     padding-top: 50px;
 }
 
-.col1 {
+.aboutus-col {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -214,28 +214,38 @@ h3 {
     overflow: hidden;
 }
 
-.col1 img {
-    width: 50%;
-    justify-content: left;
-}
-
-.aboutus {
-    min-height: 100vh;
+.aboutus-col img {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.548)), url("cover.png");
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    font-style: italic;
-    font-weight: 300;
+    display: block;
 }
 
-.aboutus p {
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
     color: #fff;
+    font-size: 10px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.5s;
 }
 
-h1 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
+.layer h3:hover {
+    bottom: 100%;
+    opacity: 1;
 }

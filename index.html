@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDICARE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="http://addison.bold-themes.com/main-demo/wp-content/uploads/sites/3/2016/07/logo-medicare.png"></a>
+            <div class="nav_links" id="nav_links">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">PRODUCTS</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text_box">
+            <h1>WElCOME TO OUR ORGANISATION</h1>
+            <p>We Provide You High Quaility Services.</p>
+            <a href="" class="hero-btn">ORDER NOW</a>
+        </div>
+    </section>
+    <section class="vision">
+        <h1>OUR VISION</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit sem sem, quis condimentum est vulputate id. Nullam ut ipsum nisi. </p>
+        <div class="row">
+            <div class="col">
+                <h3>COLUMN 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit sem sem, quis condimentum est vulputate id. Nullam ut ipsum nisi. </p>
+            </div>
+            <div class="col">
+                <h3>COLUMN 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit sem sem, quis condimentum est vulputate id. Nullam ut ipsum nisi. </p>
+
+            </div>
+            <div class="col">
+                <h3>COLUMN 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit sem sem, quis condimentum est vulputate id. Nullam ut ipsum nisi. </p>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------JAVA SCRIPT FUNCTION FOR TOOGLE--------------------------------------->
+    <script>
+        var navLinks = document.getElementById("nav_links");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>>
